@@ -1,0 +1,41 @@
+Write a function multiplyWithCallback that accepts two numbers and a callback function as arguments. The function should multiply the two numbers and pass the result to the callback function.----DONE
+
+
+Write a function doAsyncOperation that simulates an asynchronous operation. It takes a callback function callback as an argument. Inside doAsyncOperation, perform a setTimeout for 2 seconds and then invoke the callback with a success message.----DONE
+
+
+Write a function delay that returns a promise. The promise should resolve after a given number of milliseconds (delayTime) with the message "Resolved after X milliseconds", where X is delayTime. Pass delayTime as an argument  --- DONE
+
+
+Write a function fetchData that fetches data from a mock API. Implement using promises:
+If the request is successful, return the data.
+If there's an error (e.g., status code is not 200), throw an error.
+
+
+Write a function using async/await to fetch data from a REST API endpoint (https://api.example.com/data). Parse the JSON response and return the result.
+
+
+Write a function that performs three asynchronous tasks sequentially using async/await:
+Task 1: Fetch data from https://api.example.com/task1.
+Task 2: Process the data (e.g., filter or transform it).
+Task 3: Post the processed data to https://api.example.com/task3. Ensure each task waits for the previous one to complete before proceeding.
+
+
+Write an async function that fetches data from multiple endpoints in parallel:
+https://api.example.com/data1
+https://api.example.com/data2 Ensure that the function waits for all requests to complete and collects all the results before returning.
+
+
+Given an array of numbers, double each number and return the new array.
+const numbers = [1, 2, 3, 4, 5];  --- DONE
+
+Print each element of an array followed by its index.--- DONE
+
+
+Check if any element in an array is greater than 10. const numbers = [5, 8, 15, 3, 2];--- DONE
+
+
+Check if all elements in an array are positive. const numbers = [1, 2, 3, -4, 5];
+--DONE
+
+Filter an array of numbers to get only even numbers. const numbers = [1, 2, 3, 4, 5, 6]; --- DONE
