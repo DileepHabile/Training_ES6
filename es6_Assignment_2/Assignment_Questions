@@ -1,0 +1,22 @@
+Write a JavaScript class Car with a constructor that takes make and model as parameters. Include an instance method displayInfo that logs "Make: [make], Model: [model]" to the console when called.---DONE
+
+
+Create a subclass ElectricCar that extends the Car class. Add a new property batteryCapacity to the ElectricCar class and override the displayInfo method to include battery information.---DONE
+
+Create a Engine class with methods start and stop. Modify the Car class to include an instance of Engine and delegate the start and stop methods to it.
+-- DONE
+
+Write a function printPersonInfo that accepts an object parameter person containing name, age, and city properties, and uses object destructuring to print each property.---DONE
+
+
+Modify the printPersonInfo function to assign default values ('Unknown') to age and city if they are not provided in the person object.--DONE
+
+
+Write a function mergeObjects that takes two objects as parameters and merges them using the spread operator (...). If there are duplicate keys, the second object should overwrite the first.---DONE
+
+
+Write a function getRemainingProperties that extracts the name property from an object and gathers all remaining properties into a new object using object destructuring and the rest syntax (...).---DONE
+
+
+Create a function updatePersonInfo that updates the name property of a person object using object destructuring and the spread operator, leaving other properties unchanged.  ---DONE
+ 
