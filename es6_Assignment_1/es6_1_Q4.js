@@ -4,7 +4,7 @@ async function fetchData(){
     try {
         const resp = await fetch(apiUrl);
         if (!resp.ok) {
-            throw new Error('Failed to fetch data');
+            throw new Error(`Failed to fetch data`);
         }
          const data= await resp.json();
          console.log (data);

@@ -14,7 +14,7 @@ async function fetchData(){
         return data ;
     }catch(error)
     {
-        throw new Error( 'Error Message: ${error.message}');
+        throw new Error( `Error Message: ${error.message}`);
     }
 
 }
@@ -37,11 +37,11 @@ async function submittingData(){
     const url2='https://httpbin.org/post';
     const submit=await fetch(url2, { method: 'POST' });
     if(!submit.ok){
-        throw new Error('Failed to post the Processed Data ${submit.status}')
+        throw new Error(`Failed to post the Processed Data ${submit.status}`)
     }
-    console.log('All tasks are completed successfully')
+    console.log(`All tasks are completed successfully`)
  } catch (error) {
-    throw new Error('Error during submission: ,${error.message}')
+    throw new Error(`Error during submission: ,${error.message}`)
  }
 }
 

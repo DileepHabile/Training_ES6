@@ -6,6 +6,6 @@ function doAsyncOperation(callback) {
 }
 
 function callback(){
-    console.log('The function performed successfully ')
+    console.log(`The function performed successfully `)
 }
 doAsyncOperation(callback);
