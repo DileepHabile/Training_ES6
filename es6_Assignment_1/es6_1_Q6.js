@@ -34,8 +34,8 @@ function processData(data){
 
 async function submittingData(){
  try {
-    const url2='https://api.example.com/task3';
-    const submit=await fetch(url2);
+    const url2='https://httpbin.org/post';
+    const submit=await fetch(url2, { method: 'POST' });
     if(!submit.ok){
         throw new Error('Failed to post the Processed Data ${submit.status}')
     }
